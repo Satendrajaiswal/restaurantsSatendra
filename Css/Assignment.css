@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* body */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background-image */
+#title{
+    width: 100%;
+    height: 430px;
+    background: linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%), url("./home.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Big-log */
+.big-logo{
+   background-color: white;
+    padding: 10px 25px 12px;
+    border-radius: 100%;
+    font-size: 70px;
+    color: #EB2929;
+    
+ }
+
+/* input */
+.select-box{
+    width: 245px;
+    height: 60px;
+    border: 0px;
+    border-radius: 0px; 
+
+}
+/* Search-input */
+.Search-input{
+    width: 440px;
+    height: 60px;
+    border: 0px;
+    border-radius: 0px; 
+    margin-left: 25px;
+
+}
+.search-input-containar{
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+/*heding*/
+.heding{
+
+    font: normal normal bold 30px/46px Poppins;
+    color: #192F60; 
+}
+/*ext-muted */
+.text-muted{
+ 
+ color: #8C96AB;
+}
+.dis-heading{
+    color:#192F60;
+    font-size: 18px;
+    text-align: left;
+}
+.dis-details{   
+    color: #8C96AB; 
+    font-size: 0.8rem;
+}
+/*card-shadow*/
+.card-shadow{
+   box-shadow: 0px 3px 6px  #00000029;  
+}
+
+.heding-1{
+
+   font: normal normal 600 18px/27px Poppins;
+   letter-spacing: 0px;
+   color: #192F60;
+ 
+}
+
+/* custom styles */
+.card-meals{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.meal{
+    display: grid;
+    min-height: 8rem;
+    max-height: auto;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 2px 1px 4px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+
+.food-img{
+    display: flex;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 650px){
+   
+    .form-select {
+        width: 96%;
+
+    }  
+    .input-group{
+        width: 100%;
+        margin-right: 13px;
+        
+    }
+    .heding{  
+      font: normal normal bold 24px/35px Poppins;
+      color: #192F60;
+    }
+    .big-logo{
+        background-color: white;
+         padding: 7px 18px 10px;
+         border-radius: 100%;
+         font-size: 50px;
+         color: #EB2929;
+            
+      }
+      .form-select 
+      {
+        width: 280x;
+        height: 45px;
+        background: #fff 0% 0% no-repeat padding-box;
+        
+      }
+      .form-control{
+        width: 280x;
+        height: 45px;
+        background: #fff 0% 0% no-repeat padding-box;
+      }
+      .input-group{
+        width: 500px;
+        height: 0px;
+        background: #fff 0% 0% no-repeat padding-box;
+
+      }
+       #title{
+        width: 100%;
+        height: 390px;
+        background: linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%), url("./home.png") no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+ 
+}
+
+@media (max-width:1320px){
+    .card-meals{
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media (max-width:600px){
+    .card-meals{
+        grid-template-columns: 1fr;
+    } 
+    .H1 {
+        font-size: 1rem;
+      }
+  
+}
+@media (max-width: 1859px)
+{ 
+  .H1 {
+    font-size: 2.2rem;
+  }
+
+}
